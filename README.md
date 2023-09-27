@@ -2,16 +2,27 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+cloning project
+
+```bash
+git clone https://github.com/raizafr/technical-test.git
+cd technical-test
+```
+
+install all dependecies and devDependencies:
+
+```bash
+npm install
+```
+run fake api/json server:
+
+```bash
+npm run start:server
+```
+run development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
