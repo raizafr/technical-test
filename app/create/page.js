@@ -10,14 +10,13 @@ const Create = () => {
   const router = useRouter();
   const handleSubmit = async (e) => {
     e.preventDefault();
-
     const formData = {
       name: e.target.name.value,
       description: e.target.description.value,
       currency: e.target.currency.value,
       price: parseFloat(e.target.price.value),
     };
-    console.log(e.target.description.value);
+    
     try {
       await axios.post("http://localhost:5000/services", formData);
       toast("Created success");
