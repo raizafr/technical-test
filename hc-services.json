@@ -1,0 +1,25 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "name": "Oil Change",
+      "description": "Regular oil change and filter replacement service",
+      "currency": "IDR",
+      "price": 325000
+    },
+    {
+      "id": 2,
+      "name": "Tire Rotation",
+      "description": "Rotation of tires to ensure even wear and tear",
+      "currency": "IDR",
+      "price": 200000
+    },
+    {
+      "id": 3,
+      "name": "Brake Service",
+      "description": "Inspection and replacement of brake pads, rotors, and calipers",
+      "currency": "IDR",
+      "price": 300000
+    }
+  ]
+}
